@@ -1,7 +1,7 @@
 // 🚀 Telegram Referral Bot with Node.js
 
 const TelegramBot = require('node-telegram-bot-api');
-const token = 'YOUR_BOT_TOKEN'; // Replace this with your bot token
+const token = process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
 // A simple in-memory database for storing user data
