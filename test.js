@@ -3,7 +3,7 @@
 // Environment variables (Render):
 // BOT_TOKEN=your_telegram_token
 // TWITTER_BEARER_TOKEN=your_twitter_bearer_token
-// TWITTER_TARGET_ID=1780193553671333888   (numeric id of @MAQX_io)
+// TWITTER_TARGET_ID=  (numeric id of @MAQX_io)
 // TELEGRAM_GROUP=MaqxRevolution            (group username, without @)
 
 const TelegramBot = require("node-telegram-bot-api");
